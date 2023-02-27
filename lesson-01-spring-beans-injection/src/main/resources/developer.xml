@@ -8,7 +8,7 @@
     <!--dan toi file java muon cau hinh, day la 1 trong 3 cach tiem gia tri toi thuoc tinh-->
     <bean id="frontend" class="com.codegym.beans.xml.Developer">
         <property name="id" value="1"/>
-        <property name="name" value="Ty"/>
+        <property name="name" value="Tung"/>
         <property name="major" value="Frontend"/>
     </bean>
 

@@ -18,17 +18,6 @@ public class DictionaryController {
     public String viewForm(){
         return "index";
     }
-//    @PostMapping("/home")
-//public String toTranslate(@RequestParam String english, Model model){
-//        Map<String,String> dic = new HashMap<>();
-//        dic.put("table","bàn");
-//        dic.put("air","không khí");
-//        dic.put("plane","máy bay");
-//        dic.put("boat","thuyền");
-//        String vietnamese = dic.get(english);
-//        model.addAttribute("vietnamese",vietnamese);
-//        return "index";
-//    }
     @PostMapping("/home")
     public ModelAndView toTranslate(@RequestParam String english){
         ModelAndView mAv = new ModelAndView("index");

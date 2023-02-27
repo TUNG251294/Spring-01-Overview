@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration;
 public class ConfigBeans {
 
     @Bean
-    public Developer developer() {
+    public Developer fsDeveloper() {
         Developer developer = new Developer();
         developer.setId(3);
-        developer.setName("tin@gmail.com");
+        developer.setName("tuan@gmail.com");
         developer.setMajor("FullStack");
         return developer;
     }
